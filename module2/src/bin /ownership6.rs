@@ -4,5 +4,3 @@ fn main() {
     let y = x.clone();
     println!("{:?}, {:?}", x, y);
 }
-
-

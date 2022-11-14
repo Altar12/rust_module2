@@ -1,4 +1,3 @@
-
 fn main() {
     let mut s = String::from("hello, ");
 
@@ -7,4 +6,5 @@ fn main() {
 
     // Add one line below to make a compiler error: cannot borrow `s` as mutable more than once at a time
     // You can't use r1 and r2 at the same time
+    println!("{} {}", r1, r2);
 }
